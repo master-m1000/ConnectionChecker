@@ -22,13 +22,14 @@ Public Class FrmMain
         LoadSettings()
         TsLblStatus.Text = ""
         If settings.StartHidden Then
-            WindowState = FormWindowState.Minimized
+            Opacity = 0
         End If
     End Sub
 
     Private Sub FrmMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         If settings.StartHidden = True Then
             Hide()
+            Opacity = 100
         End If
         PingIps(Me, New EventArgs)
     End Sub
