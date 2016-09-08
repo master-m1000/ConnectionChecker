@@ -10,9 +10,9 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("ConnectionChecker")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("Mario Wagenknecht")>
 <Assembly: AssemblyProduct("ConnectionChecker")>
-<Assembly: AssemblyCopyright("Copyright ©  2016")>
+<Assembly: AssemblyCopyright("Copyright ©  2016 Mario Wagenknecht")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
