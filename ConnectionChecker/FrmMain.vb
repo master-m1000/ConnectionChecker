@@ -45,7 +45,6 @@ Public Class FrmMain
             NI.Icon = My.Resources.icon
         End If
         TmrCheck.Enabled = False
-        ClbIps.Enabled = False
         TbIp.Enabled = False
         TlpIpsAddRemove.Enabled = False
 
@@ -99,7 +98,6 @@ Public Class FrmMain
             NI.ShowBalloonTip(3000)
         End If
         TmrCheck.Enabled = True
-        ClbIps.Enabled = True
         TbIp.Enabled = True
         TlpIpsAddRemove.Enabled = True
         TsLblStatus.Text = "Finished at " & Date.Now.ToString("HH:mm:ss")
